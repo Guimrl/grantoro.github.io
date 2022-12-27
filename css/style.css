@@ -1,9 +1,10 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
+    font-family: 'Cinzel', serif;
 }
 
-body {
+/*body {
     height: 1000px;
     display: grid;
     grid-template-columns: 1fr auto;
@@ -28,7 +29,36 @@ body {
     color: #fff;
     text-align: justify;
     padding: 50px 80px;
-} */
-#home10 {
-    background: red;
+}*/
+
+.parallax {
+    background: lightgray;
+}
+
+.conteudo {
+    font-size: 22px;
+}
+
+.caixa {
+    height: 100vh;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #8c8c8c39;
+}
+::-webkit-scrollbar-thumb {
+    background: #8211ec;
+}
+
+.footer {
+    height: 25vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #FFF;
 }
