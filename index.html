@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, bootstrap, JavaScript">
     <title>Gran Toro | Site Oficial</title>
-    <meta name="description" content="Banda de rock da grande Porto Alegre - RS. Ouça Gran Toro em todas as plataformas áudio digital">
+    <meta name="description"
+        content="Banda de rock da grande Porto Alegre - RS. Ouça Gran Toro em todas as plataformas áudio digital">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
     <!-- fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;900&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -24,68 +26,87 @@
 <body>
 
     <section id="home" class="caixa parallax">
-        <div class="conteudo-titulo"><span class="titulo">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 d-flex">
-                            <!-- Textos da seção -->
-                            <div class="align-self-center">
-                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5FAGmTBqjtft7FYkQjlFTQ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="mt-5"></iframe>
-                                <p class="display-4 mt-5 conteudo">
-                                    A Gran Toro (Rock, Eldorado do Sul-RS) começou sua jornada em 2018. Cheios de vontade e intenção, nossa sonoridade busca referências em gêneros como grunge, rock alternativo e stoner com pitadas de post rock. Nas letras trazemos reflexões sobre a brutalidade do cotidiano e as pertubações da mente, seja um nado na superfície ou um mergulho nas profundezas. Munidos de um instrumental enérgico e cheio de voracidade, buscamos construir texturas sonoras únicas, pulsantes e viscerais.
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="col-md-6 d-none d-md-block mt-5">
-                            <img src="https://user-images.githubusercontent.com/88007295/210150713-0b28e710-2a5f-4b41-93a0-6eb591a665ce.png" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </span>
+        <div>
+            <img src="https://user-images.githubusercontent.com/88007295/210150713-0b28e710-2a5f-4b41-93a0-6eb591a665ce.png"
+                alt="Logo Gran Toro Banda" class="img-logo">
         </div>
+        <article class="conteudo">
+            <p>A Gran Toro (Rock, Eldorado do Sul-RS) começou sua jornada em 2018.
+                Cheios de vontade e intenção, nossa sonoridade busca referências
+                em gêneros como grunge, rock alternativo e stoner com pitadas de
+                post rock. Nas letras trazemos reflexões sobre a brutalidade do
+                cotidiano e as pertubações da mente, seja um nado na superfície
+                ou um mergulho nas profundezas. Munidos de um instrumental enérgico
+                e cheio de voracidade, buscamos construir texturas sonoras únicas,
+                pulsantes e viscerais.</p>
+        </article>
     </section>
 
-    <section class="sessao2">
-        <div class="container">
-            <div class="row">
+    <section id="youtube" class="caixa">
+        <div class="frame-youtube">
+            <iframe width="500px" height="315" src="https://www.youtube.com/embed/Vt5gAdltO2g?start=95"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
 
-                <div class="col-md-6 d-inline mt-5">
-                    <div class="justify-content-center">
-                        <div>
+        <div>
+            <iframe width="500px" height="315" src="https://www.youtube.com/embed/ah_hvxe5H4E"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
 
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Vt5gAdltO2g?start=95"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 d-inline mt-5">
-                    <div class="justify-content-center">
-                        <div>
-
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ah_hvxe5H4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                        </div>
-                    </div>
-                </div>
     </section>
 
-    <section id="home" class="caixa parallax ">
+    <section id="galeria" class="caixa parallax ">
+        <div class="slider">
         
+            <div class="slides">
+             <input type="radio" name="radio-btn" id="radio1">   
+             <input type="radio" name="radio-btn" id="radio2">   
+             <input type="radio" name="radio-btn" id="radio3">   
+             <input type="radio" name="radio-btn" id="radio4">
+    
+            <div class="slide first">
+                <img src="./img/img_0000.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="./img/img_0001.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="./img/IMG_6767.jpg" alt="Imagem 3">
+            </div>
+            <div class="slide">
+                <img src="./img/IMG_6784.jpg" alt="Imagem 4">
+            </div>
+    
+            <div class="slide-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+    
+        </div>
+    
+        <div class="slide-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    
+       </div>
     </section>
 
     <footer class="footer">
-
         <p>&copy; Gran Toro - 2023</p>
-
     </footer>
+
+    <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5FAGmTBqjtft7FYkQjlFTQ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="mt-5"></iframe> -->
     <script src="./js/main.js"></script>
-
 </body>
-
 </html>
