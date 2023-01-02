@@ -1,24 +1,17 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
+    font-family: 'Cinzel', serif;
 }
 
 body {
     height: 1000px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-}
-.parallax {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-}
-.caixa1 {
-    background-color: red;
-    background-image: url(../img/background1.jpg);
+    color: #FFF;
+    /* display: grid; */
+    /* grid-template-columns: 1fr auto; */
 }
 
+/*
 .img-logo {
     width: 400px;
 
@@ -28,4 +21,45 @@ body {
     color: #fff;
     text-align: justify;
     padding: 50px 80px;
-} */
+}*/
+
+.parallax {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.conteudo {
+    font-size: 22px;
+}
+
+.caixa {
+    background-color: #8c8c8c39;
+    background-image: url(https://user-images.githubusercontent.com/88007295/210151145-99c8ffb0-a594-47b5-a42c-1ee2febe6d12.png);
+    height: 100vh;
+}
+
+.sessao2 {
+    height: 100vh;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #8c8c8c39;
+}
+::-webkit-scrollbar-thumb {
+    background: #4ABEED;
+}
+
+.footer {
+    height: 25vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #FFF;
+}
