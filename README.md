@@ -7,5 +7,5 @@
 </div>
 
 <div align="center">
-    	&copy; Touro Manco Produções- 2022
+    	&copy; Touro Manco Produções - 2023
 </div>
