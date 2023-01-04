@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, bootstrap, JavaScript">
     <title>Gran Toro | Site Oficial</title>
+    <link rel="icon" type="image/x-icon" href="https://user-images.githubusercontent.com/88007295/210596599-5810977b-6c72-422b-b04c-fe3718c08de4.png">
     <meta name="description"
         content="Banda de rock da grande Porto Alegre - RS. Ouça Gran Toro em todas as plataformas áudio digital">
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
     <!-- fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,22 +19,17 @@
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script>
-        function loading() {
-            document.getElementsByClassName('box-pre')[0].style.display = "none";
-            document.getElementsByClassName('content')[0].style.display = "block";
-        }
-    </script>
+    <script src="./js/load.js"></script>
 </head>
 
 <body onload="loading()">
-    <div class="box-pre">
+    <div id="box-pre">
         <div class="pre">Carregando...</div>
     </div>
-    <main class="content">
+    <main id="content">
         <section id="home" class="caixa parallax">
             <div>
-                <img src="https://user-images.githubusercontent.com/88007295/210150713-0b28e710-2a5f-4b41-93a0-6eb591a665ce.png"
+                <img src="https://user-images.githubusercontent.com/88007295/210596599-5810977b-6c72-422b-b04c-fe3718c08de4.png"
                     alt="Logo Gran Toro Banda" class="img-logo">
             </div>
             <article class="conteudo">
@@ -81,26 +74,25 @@
                     <input type="radio" name="radio-btn" id="radio5">
 
                     <div class="slide first">
-                        <img src="https://user-images.githubusercontent.com/88007295/210575991-6b77d1ac-43dd-4b92-a5bf-93425d692693.jpg"
+                        <img src="https://user-images.githubusercontent.com/88007295/210596542-3e483190-774f-449c-ba76-2808ed716752.jpg"
                             alt="Imagem 1">
                     </div>
                     <div class="slide">
-                        <img src="https://user-images.githubusercontent.com/88007295/210576051-aa973552-2ce8-406f-a877-ffa68d7a4e24.JPG"
+                        <img src="https://user-images.githubusercontent.com/88007295/210596553-89699efd-7688-442d-97f3-ab6b7fb5c803.png"
                             alt="Imagem 3">
                     </div>
                     <div class="slide">
-                        <img src="https://user-images.githubusercontent.com/88007295/210576067-a26d77f3-7ee4-4d45-b25b-445b3bbf094e.png"
+                        <img src="https://user-images.githubusercontent.com/88007295/210596558-4daabdae-aac5-489e-a218-739507861f9f.jpg"
                             alt="Imagem 4">
                     </div>
                     <div class="slide">
-                        <img src="https://user-images.githubusercontent.com/88007295/210576076-98d2ac90-9a7a-466f-b5a4-3a514882b980.JPG"
+                        <img src="https://user-images.githubusercontent.com/88007295/210596566-6328329c-adde-41dc-ba72-d1a95290ab44.jpg"
                             alt="Imagem 5">
                     </div>
                     <div class="slide">
-                        <img src="https://user-images.githubusercontent.com/88007295/210576085-32b1f6c8-5400-41db-a6c7-2064e3ed51d8.jpg"
+                        <img src="https://user-images.githubusercontent.com/88007295/210596572-87951b33-f8d7-4c99-8484-e86c48e3649f.jpg"
                             alt="Imagem 6">
                     </div>
-
                     <div class="slide-auto">
                         <div class="auto-btn1"></div>
                         <div class="auto-btn2"></div>
@@ -108,9 +100,7 @@
                         <div class="auto-btn4"></div>
                         <div class="auto-btn5"></div>
                     </div>
-
                 </div>
-
                 <div class="slide-manual">
                     <label for="radio1" class="manual-btn"></label>
                     <label for="radio2" class="manual-btn"></label>
@@ -118,7 +108,6 @@
                     <label for="radio4" class="manual-btn"></label>
                     <label for="radio5" class="manual-btn"></label>
                 </div>
-
             </div>
         </section>
 
@@ -126,8 +115,7 @@
             <p>&copy; Gran Toro - 2023</p>
         </footer>
     </main>
-    <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5FAGmTBqjtft7FYkQjlFTQ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="mt-5"></iframe> -->
+
     <script src="./js/main.js"></script>
 </body>
-
 </html>

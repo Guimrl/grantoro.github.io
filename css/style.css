@@ -47,7 +47,7 @@ body {
 
 .parallax {
     background-color: var(--bg-cinza);
-    background-image: url(https://user-images.githubusercontent.com/88007295/210459345-6dcdd233-547c-47b7-8c74-26051e4b1096.png);
+    background-image: url(https://user-images.githubusercontent.com/88007295/210596587-1da689f9-38ec-40f1-a4f6-4e51dd048014.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -188,7 +188,7 @@ footer p {
     /* animation: load 2s infinite linear; */
 }
 
-.box-pre {
+#box-pre {
     color: black;
     position: absolute;
     width: 100%;
@@ -198,6 +198,6 @@ footer p {
     align-items: center;
 }
 
-.content {
+#content {
     display: none;
 }
