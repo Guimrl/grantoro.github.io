@@ -21,92 +21,113 @@
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+        function loading() {
+            document.getElementsByClassName('box-pre')[0].style.display = "none";
+            document.getElementsByClassName('content')[0].style.display = "block";
+        }
+    </script>
 </head>
 
-<body>
-
-    <section id="home" class="caixa parallax">
-        <div>
-            <img src="https://user-images.githubusercontent.com/88007295/210150713-0b28e710-2a5f-4b41-93a0-6eb591a665ce.png"
-                alt="Logo Gran Toro Banda" class="img-logo">
-        </div>
-        <article class="conteudo">
-            <p>A Gran Toro (Rock, Eldorado do Sul-RS) começou sua jornada em 2018.
-                Cheios de vontade e intenção, nossa sonoridade busca referências
-                em gêneros como grunge, rock alternativo e stoner com pitadas de
-                post rock. Nas letras trazemos reflexões sobre a brutalidade do
-                cotidiano e as pertubações da mente, seja um nado na superfície
-                ou um mergulho nas profundezas. Munidos de um instrumental enérgico
-                e cheio de voracidade, buscamos construir texturas sonoras únicas,
-                pulsantes e viscerais.</p>
-        </article>
-    </section>
-
-    <section id="youtube" class="caixa">
-        <div class="frame-youtube">
-            <iframe width="500px" height="315" src="https://www.youtube.com/embed/Vt5gAdltO2g?start=95"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
-
-        <div>
-            <iframe width="500px" height="315" src="https://www.youtube.com/embed/ah_hvxe5H4E"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
-
-    </section>
-
-    <section id="galeria" class="caixa parallax ">
-        <div class="slider">
-        
-            <div class="slides">
-             <input type="radio" name="radio-btn" id="radio1">   
-             <input type="radio" name="radio-btn" id="radio2">   
-             <input type="radio" name="radio-btn" id="radio3">   
-             <input type="radio" name="radio-btn" id="radio4">
-    
-            <div class="slide first">
-                <img src="./img/img_0000.png" alt="Imagem 1">
+<body onload="loading()">
+    <div class="box-pre">
+        <div class="pre">Carregando...</div>
+    </div>
+    <main class="content">
+        <section id="home" class="caixa parallax">
+            <div>
+                <img src="https://user-images.githubusercontent.com/88007295/210150713-0b28e710-2a5f-4b41-93a0-6eb591a665ce.png"
+                    alt="Logo Gran Toro Banda" class="img-logo">
             </div>
-            <div class="slide">
-                <img src="./img/img_0001.png" alt="Imagem 2">
-            </div>
-            <div class="slide">
-                <img src="./img/IMG_6767.jpg" alt="Imagem 3">
-            </div>
-            <div class="slide">
-                <img src="./img/IMG_6784.jpg" alt="Imagem 4">
-            </div>
-    
-            <div class="slide-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </div>
-    
-        </div>
-    
-        <div class="slide-manual">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-    
-       </div>
-    </section>
+            <article class="conteudo">
+                <p>A Gran Toro (Rock, Eldorado do Sul-RS) começou sua jornada em 2018.
+                    Cheios de vontade e intenção, nossa sonoridade busca referências
+                    em gêneros como grunge, rock alternativo e stoner com pitadas de
+                    post rock. Nas letras trazemos reflexões sobre a brutalidade do
+                    cotidiano e as pertubações da mente, seja um nado na superfície
+                    ou um mergulho nas profundezas. Munidos de um instrumental enérgico
+                    e cheio de voracidade, buscamos construir texturas sonoras únicas,
+                    pulsantes e viscerais.</p>
+            </article>
+        </section>
 
-    <footer class="footer">
-        <p>&copy; Gran Toro - 2023</p>
-    </footer>
+        <section id="youtube" class="caixa">
+            <div class="frame-youtube">
+                <iframe width="500px" height="315" src="https://www.youtube.com/embed/Vt5gAdltO2g?start=95"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
 
+            <div>
+                <iframe width="500px" height="315" src="https://www.youtube.com/embed/ah_hvxe5H4E"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </section>
+
+        <section id="galeria" class="caixa parallax ">
+            <div class="slider">
+
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+
+                    <div class="slide first">
+                        <img src="https://user-images.githubusercontent.com/88007295/210575991-6b77d1ac-43dd-4b92-a5bf-93425d692693.jpg"
+                            alt="Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="https://user-images.githubusercontent.com/88007295/210576051-aa973552-2ce8-406f-a877-ffa68d7a4e24.JPG"
+                            alt="Imagem 3">
+                    </div>
+                    <div class="slide">
+                        <img src="https://user-images.githubusercontent.com/88007295/210576067-a26d77f3-7ee4-4d45-b25b-445b3bbf094e.png"
+                            alt="Imagem 4">
+                    </div>
+                    <div class="slide">
+                        <img src="https://user-images.githubusercontent.com/88007295/210576076-98d2ac90-9a7a-466f-b5a4-3a514882b980.JPG"
+                            alt="Imagem 5">
+                    </div>
+                    <div class="slide">
+                        <img src="https://user-images.githubusercontent.com/88007295/210576085-32b1f6c8-5400-41db-a6c7-2064e3ed51d8.jpg"
+                            alt="Imagem 6">
+                    </div>
+
+                    <div class="slide-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                    </div>
+
+                </div>
+
+                <div class="slide-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; Gran Toro - 2023</p>
+        </footer>
+    </main>
     <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5FAGmTBqjtft7FYkQjlFTQ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="mt-5"></iframe> -->
     <script src="./js/main.js"></script>
 </body>
+
 </html>
