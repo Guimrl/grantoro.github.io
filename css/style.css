@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Cinzel', serif;
-    /* overflow: hidden; */
 }
 
 /* Cores da página */
@@ -28,7 +27,6 @@
 }
 
 body {
-    /* height: 10000px; */
     color: var(--text-white);
 }
 
@@ -38,7 +36,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* overflow: hidden; */
 }
 
 #home {
@@ -132,23 +129,23 @@ body {
     background-color: #fff;
 }
 
-#radio1:checked ~ .first {
+#radio1:checked~.first {
     margin-left: 0;
 }
 
-#radio2:checked ~ .first {
+#radio2:checked~.first {
     margin-left: -25%;
 }
 
-#radio3:checked ~ .first {
+#radio3:checked~.first {
     margin-left: -50%;
 }
 
-#radio4:checked ~ .first {
+#radio4:checked~.first {
     margin-left: -75%;
 }
 
-#radio5:checked ~ .first {
+#radio5:checked~.first {
     margin-left: -100%;
 }
 
@@ -160,19 +157,6 @@ body {
     justify-content: center;
 }
 
-.footer {
-    height: 20vh;
-    background: var(--bg-cinza);
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    color: #FFF;
-}
-
-footer p {
-    margin-bottom: 25px;
-}
-
 @keyframes load {
     to {
         transform: rotate(360deg);
@@ -182,14 +166,10 @@ footer p {
 .pre {
     width: 80px;
     height: 80px;
-    /* background-image: ; */
-    /* background-position: center; */
-    /* background-size: contain; */
-    /* animation: load 2s infinite linear; */
 }
 
 #box-pre {
-    color: black;
+    color: var(--text-black);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -200,4 +180,39 @@ footer p {
 
 #content {
     display: none;
+}
+
+footer {
+    background: var(--bg-cinza);
+}
+
+footer p a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+#social-footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    padding-top: 3em;
+    padding-bottom: 0.3em;
+    margin-bottom: 1.4em;
+}
+
+#social-footer li {
+    margin-right: 1em;
+    font-size: 2.5em;
+}
+
+#social-footer i {
+    color: #FFFFFF;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5em;
 }
