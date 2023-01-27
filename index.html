@@ -5,32 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML, CSS, bootstrap, JavaScript">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
     <title>Gran Toro | Site Oficial</title>
-    <link rel="icon" type="image/x-icon" href="https://user-images.githubusercontent.com/88007295/210596599-5810977b-6c72-422b-b04c-fe3718c08de4.png">
+    <link rel="icon" type="image/x-icon"
+        href="https://user-images.githubusercontent.com/88007295/210596599-5810977b-6c72-422b-b04c-fe3718c08de4.png">
     <meta name="description"
         content="Banda de rock da grande Porto Alegre - RS. Ouça Gran Toro em todas as plataformas áudio digital">
-    <!-- fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;900&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <!-- Estilo customizado -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./js/load.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
 </head>
 
 <body onload="loading()">
     <div id="box-pre">
         <div class="pre">Carregando...</div>
     </div>
-    <main id="content">
-        <section id="home" class="caixa parallax">
+    <main id="content" role="main">
+        <header class="wrapper">
+            <nav>
+                <a href="#" class="logo">Gran Toro</a>
+                <input type="checkbox" id="toggle">
+                <label for="toggle"><i class="fa-solid fa-bars"></i></label>
+                <div class="menu">
+                    <ul>
+                        <li><a href="https://www.instagram.com/GRANTOROBANDA/" target="_blank">instagram</a></li>
+                        <li><a href="https://www.facebook.com/grantorobanda" target="_blank">facebook</a></li>
+                        <li><a href="https://www.youtube.com/grantorobanda" target="_blank">youtube</a></li>
+                        <li><a href="https://open.spotify.com/album/5FAGmTBqjtft7FYkQjlFTQ" target="_blank">spotify</a></li>
+                        <li><a href="https://music.apple.com/au/album/gran-toro-demo-n%C2%BA-1-ep/1593037792?at=1001lwQy&ct=FFM_1ac57a981cbc2f18e8b68797cf6ba5de&ls=1" target="_blank">apple music</a></li>
+                        <li><a href="https://www.deezer.com/br/album/269604872" target="_blank">deezer</a></li>
+                        <li><a href="https://tidal.com/browse/album/203219405" target="_blank">tidal</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="home" class="container parallax">
             <div>
-                <img src="https://user-images.githubusercontent.com/88007295/210596599-5810977b-6c72-422b-b04c-fe3718c08de4.png"
-                    alt="Logo Gran Toro Banda" class="img-logo">
+                <img src="https://user-images.githubusercontent.com/88007295/214746693-2df6b954-ff89-45f2-9dd8-142a7118356b.png"
+                    alt="Logo banda Gran Toro" class="img-logo">
             </div>
             <article class="conteudo">
                 <p>A Gran Toro (Rock, Eldorado do Sul-RS) começou sua jornada em 2018.
@@ -44,26 +62,26 @@
             </article>
         </section>
 
-        <section id="youtube" class="caixa">
+        <!-- <section id="youtube" class="caixa">
             <div class="frame-youtube">
-                <iframe width="500px" height="315" src="https://www.youtube.com/embed/Vt5gAdltO2g?start=95"
-                    title="YouTube video player" frameborder="0"
+                <iframe width="400px" height="315" src="https://www.youtube.com/embed/Vt5gAdltO2g?start=95"
+                    title="Gran Toro ao vivo Festerê Fest 2022" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
             </div>
 
             <div>
-                <iframe width="500px" height="315" src="https://www.youtube.com/embed/ah_hvxe5H4E"
-                    title="YouTube video player" frameborder="0"
+                <iframe width="400px" height="315" src="https://www.youtube.com/embed/ah_hvxe5H4E"
+                    title="Gran Toro - Fantasmas [TMOSession]" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
             </div>
 
-        </section>
+        </section> -->
 
-        <section id="galeria" class="caixa parallax ">
+        <!--<section id="galeria" class="caixa parallax ">
             <div class="slider">
 
                 <div class="slides">
@@ -75,23 +93,23 @@
 
                     <div class="slide first">
                         <img src="https://user-images.githubusercontent.com/88007295/210596542-3e483190-774f-449c-ba76-2808ed716752.jpg"
-                            alt="Imagem 1">
+                            alt="Show ao vivo, todos os quatro integrantes no palco com iluminação azul, no fundo a logo da prefeitura de Eldorado do Sul - RS">
                     </div>
                     <div class="slide">
                         <img src="https://user-images.githubusercontent.com/88007295/210596553-89699efd-7688-442d-97f3-ab6b7fb5c803.png"
-                            alt="Imagem 3">
+                            alt="show ao vivo, todos os quatro integrantes da banda no teatro de arena Poa - RS, imagem com filtro vermelho.">
                     </div>
                     <div class="slide">
                         <img src="https://user-images.githubusercontent.com/88007295/210596558-4daabdae-aac5-489e-a218-739507861f9f.jpg"
-                            alt="Imagem 4">
+                            alt="show ao vivo no teatro de arena com iluminação vermelha de fundo">
                     </div>
                     <div class="slide">
                         <img src="https://user-images.githubusercontent.com/88007295/210596566-6328329c-adde-41dc-ba72-d1a95290ab44.jpg"
-                            alt="Imagem 5">
+                            alt="show ao vivo na GIG solidária 2022, todos os integrantes balançando a cabeça no palco">
                     </div>
                     <div class="slide">
                         <img src="https://user-images.githubusercontent.com/88007295/210596572-87951b33-f8d7-4c99-8484-e86c48e3649f.jpg"
-                            alt="Imagem 6">
+                            alt="Show ao vivo no Festerê Fest 2022 de frente, todos os membros da banda tocando uma música">
                     </div>
                     <div class="slide-auto">
                         <div class="auto-btn1"></div>
@@ -110,12 +128,11 @@
                 </div>
             </div>
         </section>
-
-        <footer class="footer">
-            <p>&copy; Gran Toro - 2023</p>
-        </footer>
+    -->
+        <!-- <footer id="footer">
+            <p class="text-footer"><a href="#home">&copy; Gran Toro - 2023</a></p>
+        </footer> -->
     </main>
-
-    <script src="./js/main.js"></script>
 </body>
+
 </html>
