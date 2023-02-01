@@ -31,13 +31,4 @@
     .img-logo {
         max-width: 100%;
     }
-
-    .conteudo {
-        border: 1px solid red;
-        max-width: 100%;
-        padding: 25px 25px 25px 25px;
-        text-indent: 50px;
-        font-size: 1em;
-        margin-bottom: 200px;
-    }
 }
