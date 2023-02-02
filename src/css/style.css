@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+:root {
+    --bg-color: #FFFFFF;
+    --bg-cinza: #31312F;
+    --text-black: #000000;
+    --text-white: #FFFFFF;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    height: 100%;
+    background-image: url('https://user-images.githubusercontent.com/88007295/216149376-afa94ec0-17b0-4521-86bc-d95b1722720e.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-cinza);
+    padding: 1.5rem;
+}
+
+nav .logo {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+nav #toggle,
+nav label {
+    display: none;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo {
+    width: 600px;
+    margin-top: 70px;
+}
+
+.conteudo {
+    max-width: 40%;
+    padding: 25px 25px 25px 25px;
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 1.1rem;
+    color: var(--text-white);
+}
+
+footer {
+    background-color: var(--bg-cinza);
+    height: 80px;
+    display: grid;
+    place-items: center;
+}
+
+footer a {
+    color: var(--text-white);
+    list-style: none;
+    text-decoration: none;
+}

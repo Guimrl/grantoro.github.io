@@ -1,0 +1,38 @@
+@media(max-width: 900px) {
+    nav .menu {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+
+    nav label {
+        display: inline-flex;
+        color: white;
+        cursor: pointer;
+    }
+
+    nav #toggle:checked~.menu {
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-logo {
+        max-width: 100%;
+    }
+
+    .conteudo {
+        max-width: 90%;
+    }
+}
