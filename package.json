@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Guimrl/grantoro.github.io/issues"
+    "url": "https://github.com/GranToro/grantoro.github.io/issues"
   },
-  "homepage": "https://github.com/Guimrl/grantoro.github.io#readme",
+  "homepage": "https://github.com/GranToro/grantoro.github.io#readme",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
