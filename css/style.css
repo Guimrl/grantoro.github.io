@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: .4s;
+    transition: .5s;
 }
 
 :root {
@@ -40,7 +40,7 @@ nav {
 }
 
 nav .logo {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 nav ul {
@@ -71,7 +71,7 @@ nav label {
 }
 
 .conteudo {
-    max-width: 100%;
+    max-width: 40%;
     padding: 25px 25px 25px 25px;
     text-align: justify;
     text-indent: 40px;
