@@ -99,6 +99,7 @@ footer {
     height: 80px;
     display: grid;
     place-items: center;
+    bottom: 0;
 }
 
 footer a {
