@@ -36,4 +36,13 @@
     .conteudo {
         max-width: 90%;
     }
+
+    footer {
+        bottom: 0;
+        left: 0;
+        height: 40px;
+        position: fixed;
+        width: 100%;
+        margin-top: auto;
+    }
 }
